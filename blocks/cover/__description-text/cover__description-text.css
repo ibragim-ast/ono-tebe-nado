@@ -1,0 +1,9 @@
+.cover__description-text {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  z-index: 1;
+  word-spacing: 17px;
+}
