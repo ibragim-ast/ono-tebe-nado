@@ -47,3 +47,12 @@
 @import url("../blocks/card/_type_film/card_type_film.css");
 @import url("../blocks/card/_type_book/card_type_book.css");
 @import url("../blocks/card/_type_picture/card_type_picture.css");
+
+/* about */
+@import url("../blocks/about/about.css");
+@import url("../blocks/about/__column/about__column.css");
+@import url("../blocks/about/__title/about__title.css");
+@import url("../blocks/about/__logo/about__logo.css");
+@import url("../blocks/about/__logo-image/about__logo-image.css");
+@import url("../blocks/about/__text-container/about__text-container.css");
+@import url("../blocks/about/__text/about__text.css");
