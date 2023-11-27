@@ -32,3 +32,18 @@
 @import url("../blocks/aligned-text/_right/aligned-text_right.css");
 @import url("../blocks/cover/__description/cover__description.css");
 @import url("../blocks/cover/__description-text/cover__description-text.css");
+
+/* lots */
+@import url("../blocks/lots/lots.css");
+@import url("../blocks/lots/__heading/lots__heading.css");
+@import url("../blocks/lots/__card-list/lots__card-list.css");
+@import url("../blocks/lots/__look-more-link/lots__look-more-link.css");
+
+/* card */
+@import url("../blocks/card/card.css");
+@import url("../blocks/card-link/card-link.css");
+@import url("../blocks/card/__title/card__title.css");
+@import url("../blocks/card/__text/card__text.css");
+@import url("../blocks/card/_type_film/card_type_film.css");
+@import url("../blocks/card/_type_book/card_type_book.css");
+@import url("../blocks/card/_type_picture/card_type_picture.css");
