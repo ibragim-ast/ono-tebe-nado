@@ -1,6 +1,6 @@
 /* global styles */
-@import url("../styles/global.css");
 @import url("../vendor/fonts/fonts.css");
+@import url("../styles/global.css");
 
 /* general */
 @import url("../blocks/overlay/overlay.css");
