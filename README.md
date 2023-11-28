@@ -1,5 +1,6 @@
 # Проект: Аукцион ненужных вещей.
 
+![Logo]('./images/logo-black.svg')
 Учебный проект ["Аукцион ненужных вещей"](https://ibragim-ast.github.io/ono-tebe-nado/) реализован в рамках специализации "Фронтенд-разработчик" в [Я.Практикум](https://practicum.yandex.ru/). Сайт посвящен продаже вещей опережающих своё время.
 
 [Ссылка на репозиторий](https://github.com/ibragim-ast/ono-tebe-nado)
