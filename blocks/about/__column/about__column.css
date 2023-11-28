@@ -1,7 +1,7 @@
 .about__column {
   display: grid;
   grid-template-columns: 430px 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   column-gap: 25px;
   row-gap: 8px;
 }

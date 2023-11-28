@@ -56,3 +56,11 @@
 @import url("../blocks/about/__logo-image/about__logo-image.css");
 @import url("../blocks/about/__text-container/about__text-container.css");
 @import url("../blocks/about/__text/about__text.css");
+
+/* footer */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__menu-list/footer__menu-list.css");
+@import url("../blocks/footer/__menu-link/footer__menu-link.css");
+@import url("../blocks/footer/__menu-link/_active/footer__menu-link_active.css");
+@import url("../blocks/footer/__social-list/footer__social-list.css");
+@import url("../blocks/footer/__social-icon/footer__social-icon.css");
