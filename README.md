@@ -9,8 +9,7 @@
 ## Технологии
 
 - HTML
-- CSS
-- JavaScript
+- CSS (flex, grid)
 
 ## Установка и запуск
 
