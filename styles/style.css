@@ -1,3 +1,5 @@
+/* общие стили */
+
 .overlay {
   position: absolute;
   left: 0;
@@ -7,6 +9,43 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 3px;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+/* address */
+
+.address {
+  max-width: 240px;
+  font-style: normal;
+}
+
+.address__list {
+  list-style: none;
+}
+
+.address__list-item {
+  font-size: 18px;
+  line-height: 135%;
+}
+
+/* header */
 .header {
   max-width: 1340px;
   display: flex;
@@ -27,7 +66,6 @@
 }
 
 .header__links-list-item_no-bullit {
-  text-decoration: none;
   list-style: none;
 }
 
@@ -35,7 +73,7 @@
   font-size: 18px;
 }
 
-.header__menu-link_active {
+.header__link_active {
   text-decoration: none;
 }
 
@@ -49,19 +87,14 @@
   height: 105px;
 }
 
-.address {
-  max-width: 240px;
+/* main */
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 180px;
 }
 
-.address__list {
-  list-style: none;
-}
-
-.address__list-item {
-  font-size: 18px;
-  line-height: 135%;
-}
-
+/* cover */
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
@@ -120,29 +153,10 @@
   margin-left: 78px;
 }
 
-.letter-spacing-extended {
-  letter-spacing: 60px;
-}
-
-.no-letter-spacing {
-  letter-spacing: 3px;
-}
-
-.aligned-text {
-  display: block;
-}
-
-.aligned-text_center {
-  text-align: center;
-}
-
-.aligned-text_right {
-  text-align: right;
-}
-
+/* lots */
 .lots {
   max-width: 1340px;
-  margin: 180px auto 0;
+  margin: 0 auto;
 }
 
 .lots__heading {
@@ -161,6 +175,7 @@
   margin-bottom: 32px;
 }
 
+/* card */
 .card {
   position: relative;
   width: 430px;
@@ -208,4 +223,86 @@
   font-weight: 400;
   font-size: 20px;
   margin-left: 40px;
+}
+
+/* about */
+.about {
+  padding: 0 40px;
+}
+
+.about__column {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 240px 1fr;
+  gap: 7px;
+}
+
+.about__logo {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 113px;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000;
+  align-self: center;
+}
+
+.about__text {
+  font-size: 20px;
+}
+
+.about__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* footer */
+.footer {
+  margin: 180px auto 90px;
+  display: flex;
+  max-width: 1340px;
+  justify-content: space-between;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__menu-list-item {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer__social-list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.footer__social-list-item {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
 }
