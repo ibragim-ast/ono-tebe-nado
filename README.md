@@ -15,7 +15,7 @@
 ## Установка и запуск
 
 1. Склонируйте репозиторий:
-   `git clone https://github.com/your-username/your-repo.git`
+   `https://github.com/ibragim-ast/ono-tebe-nado.git`
 
 2. Перейдите в папку проекта:
    `cd your-repo`
